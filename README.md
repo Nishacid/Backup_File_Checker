@@ -4,17 +4,15 @@ Find backup file on a web server
 ## Installation
 
 ```
+git clone https://github.com/Nishacid/Backup_File_Checker
+cd Backup_File_Checker/
 pip3 install -r requirements.txt
-```
-OR
-```
-python3 -m pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```
-usage: script.py [-h] -host HOST -f FILE
+usage: python3 main.py -host HOST -f FILE
 
 optional arguments:
   -h, --help  show this help message and exit
@@ -27,7 +25,7 @@ optional arguments:
 Usage example agaist 127.0.0.1 on index.php file 
 
 ```
-python3 script.py -host http://127.0.0.1/ -f index.php
+python3 main.py -host http://127.0.0.1/ -f index.php
 
 [-] http://127.0.0.1/index.php.backup | HTTP Code : 404
 [-] http://127.0.0.1/index.php.bck | HTTP Code : 404
