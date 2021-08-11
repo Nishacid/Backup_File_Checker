@@ -16,7 +16,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # List of backup extensions 
-    list=[".backup",".bck",".old",".save",".bak",".sav","~",".copy",".old",".orig",".tmp","temp",".txt",".back",".bkp",".bac",".tar",".gz",".tar.gz",".zip",".rar", "copia"]
+    list=[".backup",".bck",".old",".save",".bak",".sav","~",".copy",".old",".orig",".tmp",".temp",".swp", ".txt",".back",".bkp",".bac",".tar",".gz",".tar.gz",".zip",".rar", "copia"]
 
     file = args.file
     host = args.host
